@@ -1,0 +1,105 @@
+#app {
+  width: 100%;
+  height: 100%;
+  font-size: 0.59733333rem;
+}
+#app .main .header {
+  width: 100%;
+  height: 2.28266667rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #7e8c8d;
+}
+#app .main .header div {
+  margin-left: 0.85333333rem;
+}
+#app .main .header .div-img {
+  margin-left: 1.06666667rem;
+  width: 1.49333333rem;
+  height: 1.49333333rem;
+}
+#app .main .header .div-img img {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+#app .main .content {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+  padding-top: 0.85333333rem;
+}
+#app .main .content .content-img {
+  width: 10.45333333rem;
+  height: 8.10666667rem;
+  background: red;
+  border-radius: 10px;
+}
+#app .main .content .content-img img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 10px;
+}
+#app .main .content div {
+  text-align: center;
+  margin: auto;
+}
+#app .main .content .div1 {
+  height: 1.536rem;
+  line-height: 1.536rem;
+  font-size: 0.68266667rem;
+}
+#app .main .content .div2 {
+  font-size: 0.64rem;
+  text-align: center;
+  color: red;
+  text-decoration: line-through;
+}
+#app .main .content .div3 {
+  width: 80%;
+  margin: 0.96rem auto 0.64rem;
+  display: flex;
+}
+#app .main .content .div3 .border {
+  width: 40%;
+  border-bottom: 1px solid #7e8c8d;
+}
+#app .main .content .div4 {
+  height: 1.28rem;
+  width: 78%;
+  margin: auto;
+  color: #7e8c8d;
+  border-bottom: 1px solid #7e8c8d;
+}
+#app .main .content .div5 {
+  width: 7.68rem;
+  height: 1.6rem;
+  margin: 0.896rem auto 0;
+  background: green;
+  border-radius: 8px;
+  color: #fff;
+  line-height: 1.6rem;
+  text-align: center;
+  font-size: 0.66133333rem;
+}
+#app .layer {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#app .layer .layer-div {
+  width: 100%;
+  height: 2.28266667rem;
+  background: lightyellow;
+}
+#app .layer .layer-div img {
+  width: 100%;
+  height: 100%;
+}
